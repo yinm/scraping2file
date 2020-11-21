@@ -1,0 +1,15 @@
+---
+separator: "\t"
+hostname:
+  example.com:
+  - selector: "h1"
+  - selector: "p"
+    all: true
+  - selector: "a[href]"
+    callback: !!js/function >
+      (str) => str.replace("...", "")
+  example.net:
+  - selector: "h1"
+  - selector: "p"
+    all: true
+  - selector: "a[href]"

@@ -1,0 +1,28 @@
+{
+  "name": "scraping2file",
+  "description": "Scraping multiple websites and create same formatted file.",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "files": [
+    "bin/*",
+    "src/*"
+  ],
+  "bin": {
+    "scraping2file": "bin/index.js"
+  },
+  "dependencies": {
+    "cac": "^6.6.1",
+    "js-yaml": "^3.14.0",
+    "p-retry": "^4.2.0",
+    "puppeteer": "^5.5.0"
+  },
+  "scripts": {
+    "remove-init-files": "rm -rf config.yml urls.txt output/"
+  },
+  "keywords": [
+    "scraping",
+    "puppeteer"
+  ],
+  "author": "yinm",
+  "license": "MIT"
+}
