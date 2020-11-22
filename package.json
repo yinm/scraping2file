@@ -24,5 +24,9 @@
     "puppeteer"
   ],
   "author": "yinm",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yinm/scraping2file.git"
+  }
 }
