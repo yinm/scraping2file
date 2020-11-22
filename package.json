@@ -1,7 +1,7 @@
 {
   "name": "scraping2file",
   "description": "Scraping multiple websites and create same formatted file.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.js",
   "files": [
     "bin/*",
